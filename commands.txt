@@ -1,0 +1,7 @@
+sudo useradd -m alice
+sudo useradd -m bob
+sudo groupadd developers
+sudo usermod -aG developers alice
+sudo mkdir /secure-data
+sudo chown root:developers /secure-data
+sudo chmod 770 /secure-data
