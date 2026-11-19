@@ -6,5 +6,5 @@ terraform {
 
 resource "local_file" "example" {
   filename = "${path.module}/hello.txt"
-  content  = "Version 1 - Terraform tracked with Git"
+  content  = "Version 2 - Terraform tracked with Git"
 }
