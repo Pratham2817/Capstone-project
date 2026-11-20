@@ -1,0 +1,21 @@
+---
+- name: Install and start web server
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: true
+
+    - name: Start and enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: true
+
+    - name: Deploy index page
+      copy:
+        content: "Hello from Ansible!\n"
+        dest: /var/www/html/index.html
