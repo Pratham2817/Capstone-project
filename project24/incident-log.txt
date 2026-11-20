@@ -1,0 +1,5 @@
+[18:21:55] BASELINE: active, HTTP 200
+[18:22:31] FAILURE INJECTED: nginx stopped
+[18:22:31] CHECK: inactive, HTTP 000
+[18:23:00] RESTART: nginx started
+[18:23:00] RECOVERY CHECK: active, HTTP 200, body: Hello from Project 24
