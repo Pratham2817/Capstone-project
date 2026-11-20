@@ -1,6 +1,6 @@
 
 
-cat > README.md << 'EOF'
+
 # Project 14: App Deployment using EKS
 
 ## Goal
