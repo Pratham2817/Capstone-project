@@ -1,0 +1,6 @@
+{"widgets":[
+{"type":"metric","x":0,"y":0,"width":12,"height":6,"properties":{"title":"EC2 CPU Utilization","region":"ap-south-1","stat":"Average","period":60,"view":"timeSeries","metrics":[["AWS/EC2","CPUUtilization","InstanceId","i-02e21fd76ec2124ce"],["AWS/EC2","CPUUtilization","InstanceId","i-0186cc9cf19b8bbc5"]]}},
+{"type":"metric","x":12,"y":0,"width":12,"height":6,"properties":{"title":"ALB Request Count","region":"ap-south-1","stat":"Sum","period":60,"view":"timeSeries","metrics":[["AWS/ApplicationELB","RequestCount","LoadBalancer","app/web-alb-pratham/eff12ceb89e1ea30"]]}},
+{"type":"metric","x":0,"y":6,"width":12,"height":6,"properties":{"title":"Healthy Hosts","region":"ap-south-1","stat":"Average","period":60,"view":"timeSeries","metrics":[["AWS/ApplicationELB","HealthyHostCount","TargetGroup","targetgroup/web-tg-pratham/fbc7bfe14c9489c4","LoadBalancer","app/web-alb-pratham/eff12ceb89e1ea30"]]}},
+{"type":"metric","x":12,"y":6,"width":12,"height":6,"properties":{"title":"EC2 Network In","region":"ap-south-1","stat":"Sum","period":60,"view":"timeSeries","metrics":[["AWS/EC2","NetworkIn","InstanceId","i-02e21fd76ec2124ce"],["AWS/EC2","NetworkIn","InstanceId","i-0186cc9cf19b8bbc5"]]}}
+]}
