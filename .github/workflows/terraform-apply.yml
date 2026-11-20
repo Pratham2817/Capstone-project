@@ -1,4 +1,5 @@
-name: Terraform Apply
+name: Project18 - GitOps Infra Deployment
+run-name: Project18 - GitOps Infra Deployment (${{ github.event.head_commit.message || 'manual run' }})
 on:
   push:
     branches: [main]
