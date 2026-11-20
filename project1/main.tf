@@ -51,10 +51,10 @@ data "aws_ami" "amazon_linux" {
 
 # EC2 Instance
 resource "aws_instance" "web" {
-  ami                    = data.aws_ami.amazon_linux.id
-  instance_type          = "t3.micro"
+  ami           = data.aws_ami.amazon_linux.id
+  instance_type = "t3.micro"
 
-  subnet_id              = data.aws_subnet.public.id
+  subnet_id = data.aws_subnet.public.id
 
   associate_public_ip_address = true
 
