@@ -1,5 +1,4 @@
-cd ~/Capstone-project/project14
-mkdir -p screenshots
+
 
 cat > README.md << 'EOF'
 # Project 14: App Deployment using EKS
