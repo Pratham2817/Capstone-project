@@ -13,6 +13,3 @@ Automate backup routine.
 ## Files
 - `backup.sh`
 
-## Screenshots
-- `screenshots/01-cron-and-backup.png`
-- `screenshots/02-s3-bucket.png`
