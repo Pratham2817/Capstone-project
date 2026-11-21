@@ -56,12 +56,6 @@ Outputs:
 4. Generate CPU activity on the EC2 instance.
 5. Confirm the alarm changes from OK to ALARM.
 
-## Screenshots
-
-Included screenshots:
-
-- cloudwatch-alarm.png
-- ec2-instance-running.png
 
 ## Outcome
 
