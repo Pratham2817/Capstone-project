@@ -32,8 +32,8 @@ Successful run: https://github.com/Pratham2817/Capstone-project/actions/runs/447
 ## Screenshots
 | Description | File |
 |---|---|
-| Job success | ![job](screenshots/01-job-success.png) |
-| Plan artifact | ![artifact](screenshots/02-artifact.png) |
+| Job success | ![job] |
+| Plan artifact | |
 
 ## Deliverables
 - [x] Terraform plan in pipeline
