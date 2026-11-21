@@ -51,14 +51,6 @@ git pull
 git log --oneline --graph
 ```
 
-## Screenshots
-| Description | File |
-|---|---|
-| Branch protection rule | ![rule](screenshots/01-branch-protection.png) |
-| Open pull request | ![PR](screenshots/02-open-pr.png) |
-| PR review | ![review](screenshots/03-review.png) |
-| Merged pull request | ![merged](screenshots/04-merged-pr.png) |
-
 ## Notes
 - GitHub does not allow approving your own pull request, so the review was submitted as a comment and the rule requires 0 approvals. With a second reviewer, set required approvals to 1.
 
