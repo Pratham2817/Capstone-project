@@ -15,6 +15,4 @@ Central log management.
 ## Files
 - `config.json`: CloudWatch agent configuration
 
-## Screenshots
-- `screenshots/01-agent-running.png`: agent status running
-- `screenshots/03-cloudwatch-logs.png`: log groups, stream and 10 log lines from CloudWatch
+
