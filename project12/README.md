@@ -29,11 +29,7 @@ Validate infrastructure changes automatically: run `terraform plan` on every pus
 ## Result
 Successful run: https://github.com/Pratham2817/Capstone-project/actions/runs/44712951753
 
-## Screenshots
-| Description | File |
-|---|---|
-| Job success | ![job] |
-| Plan artifact | |
+
 
 ## Deliverables
 - [x] Terraform plan in pipeline
