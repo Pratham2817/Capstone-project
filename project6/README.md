@@ -38,8 +38,7 @@ git commit -m "Update Terraform content to Version 2"
 git push -u origin update-terraform
 ```
 
-## Deliverable
-PR link: PASTE_PR_LINK_HERE
+
 
 ## Outcome
 Terraform changes are version-controlled with Git, and updates are reviewed through a Pull Request.
