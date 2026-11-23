@@ -1,4 +1,4 @@
-cat > project7/README.md << 'EOF'
+
 # Project 7: CI Validation for Terraform
 
 ![Terraform CI](https://github.com/Pratham2817/Capstone-project/actions/workflows/terraform-ci.yml/badge.svg)
